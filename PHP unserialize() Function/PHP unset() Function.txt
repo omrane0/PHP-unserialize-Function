@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<?php
+$a = "Hello world!";
+echo "The value of variable 'a' before unset: " . $a . "<br>";
+unset($a);
+echo "The value of variable 'a' after unset: " . $a;
+?>
+
+</body>
+</html>
+
+
+
+
+The value of variable 'a' before unset: Hello world!
+The value of variable 'a' after unset:
